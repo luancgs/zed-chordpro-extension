@@ -1,0 +1,8 @@
+name = "ChordPro"
+grammar = "chordpro"
+path_suffixes = ["cho", "crd", "chordpro", "chord"]
+autoclose_before = ",]}"
+brackets = [
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+]
