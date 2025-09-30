@@ -1,0 +1,13 @@
+id = "chordpro"
+name = "ChordPro"
+description = "ChordPro syntax highlighting"
+version = "1.0.0"
+schema_version = 1
+authors = [
+    "Luan Carlos <luancgs.dev@pm.me>",
+]
+repository = "https://github.com/luancgs/zed-chordpro-extension"
+
+[grammars.chordpro]
+repository = "https://github.com/luancgs/tree-sitter-chordpro"
+rev = "436a4f514269fcd9734589febcea532f88e5cf68"
